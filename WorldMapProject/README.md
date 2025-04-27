@@ -18,6 +18,10 @@
 ---
 
 ## Folder Structure
+- Learn about JS MapBox GL JS or Leaflet
+---
+
+## Folder Structure
 WorldMapProject/
 ├── README.md
 ├── index.html

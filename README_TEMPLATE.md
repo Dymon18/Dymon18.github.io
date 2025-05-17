@@ -37,5 +37,4 @@ A high-level view of the stages of development.
 /backend
 /frontend
 
-
-
+## END OF README

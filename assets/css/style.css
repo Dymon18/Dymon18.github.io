@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'Nevon';
+    src: url('assets/fonts/Nevan_RUS.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  body {
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; /* <- ✅ this is a good fallback */
+  }
+  
+  h1 {
+    font-family: 'Nevon', Arial, sans-serif; /* <- ✅ improved fallback */
+  }
+  

@@ -34,6 +34,10 @@ nav a {
   font-family: 'Nevan', Arial, sans-serif;
 }
 
+nav button {
+  font-family: 'Nevan', Arial, sans-serif;
+}
+
 nav a:hover {
   text-decoration: underline;
 }

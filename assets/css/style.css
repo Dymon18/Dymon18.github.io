@@ -1,5 +1,5 @@
 @font-face {
-  font-family: 'Nevon';
+  font-family: 'Nevan';
   src: url('../fonts/Nevan_RUS.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
@@ -18,7 +18,7 @@
   }
   
   h1 {
-    font-family: 'Nevon', Arial, sans-serif;
+    font-family: 'Nevan', Arial, sans-serif;
   }
   
   

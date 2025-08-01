@@ -31,6 +31,7 @@ nav ul {
 nav a {
   color: #5dafff;
   text-decoration: none;
+  font-family: 'Nevan', Arial, sans-serif;
 }
 
 nav a:hover {

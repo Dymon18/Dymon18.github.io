@@ -70,3 +70,61 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+main a {
+  color: #81c8ff;
+}
+
+.quick-link {
+  display: inline-block;
+  padding: 0.65em 1em;
+  border: 1px solid #81c8ff;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.quick-link:hover {
+  color: #000;
+  background: #81c8ff;
+}
+
+.featured-projects {
+  margin-top: 2.5rem;
+}
+
+.project-card {
+  max-width: 32rem;
+  margin: 1rem auto 0;
+  padding: 1.25rem;
+  border: 1px solid #343c4b;
+  border-radius: 0.75rem;
+  background: #111;
+  text-align: left;
+}
+
+.project-card h2,
+.project-card h3 {
+  margin: 0;
+}
+
+.project-card p {
+  line-height: 1.5;
+  margin-bottom: 0;
+}
+
+.design-credit {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+.design-credit img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.design-credit figcaption {
+  margin-top: 0.75rem;
+  line-height: 1.5;
+}

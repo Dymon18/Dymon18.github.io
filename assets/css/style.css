@@ -153,3 +153,22 @@ main a {
 .project-card-tasklane .project-subtitle {
   color: #bae0eb;
 }
+
+.project-card-mahjong {
+  background: #162d23;
+  border-color: #a79461;
+}
+
+.project-card-mahjong:hover,
+.project-card-mahjong:focus-visible {
+  background: #214336;
+  border-color: #f4cd90;
+}
+
+.project-card-mahjong .project-thumbnail {
+  width: min(38%, 10rem);
+}
+
+.project-card-mahjong .project-subtitle {
+  color: #c6e3ce;
+}

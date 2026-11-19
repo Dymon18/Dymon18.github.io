@@ -44,7 +44,7 @@ nav a:hover {
 
 main {
   flex: 1;
-  padding: 2rem;
+  padding: 2rem clamp(1rem, 4vw, 2rem);
   text-align: center;
 }
 
@@ -75,21 +75,42 @@ main a {
   margin-top: 2.5rem;
 }
 
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr));
+  gap: 1rem;
+  max-width: 68rem;
+  margin: 1rem auto 0;
+}
+
+.project-grid > :only-child {
+  width: min(100%, 25rem);
+  justify-self: center;
+}
+
 .project-card {
+  box-sizing: border-box;
   display: flex;
   align-items: center;
-  gap: clamp(0.75rem, 3vw, 1.25rem);
-  max-width: 32rem;
-  margin: 1rem auto 0;
-  padding: 1.25rem;
-  border: 1px solid #343c4b;
-  border-radius: 0.75rem;
-  background: #111;
+  gap: 0.75rem;
+  aspect-ratio: 8 / 3;
+  padding: 0.75rem;
+  border: 2px solid #b99062;
+  border-radius: 0.9rem;
+  background: #201917;
+  color: #f9eee2;
   text-align: left;
+  text-decoration: none;
+}
+
+.project-card:hover,
+.project-card:focus-visible {
+  background: #2d211d;
+  border-color: #ffd4a3;
 }
 
 .project-thumbnail {
-  width: clamp(4rem, 20vw, 8rem);
+  width: clamp(2.75rem, 14vw, 4.5rem);
   height: auto;
   flex: none;
   border-radius: 0.375rem;
@@ -98,11 +119,12 @@ main a {
 .project-card h2,
 .project-card h3 {
   margin: 0;
+  font-size: 1.35rem;
 }
 
 .project-card p {
-  line-height: 1.5;
-  margin-bottom: 0;
+  margin: 0.3rem 0 0;
+  line-height: 1.3;
 }
 
 .design-credit {
@@ -119,8 +141,4 @@ main a {
 .design-credit figcaption {
   margin-top: 0.75rem;
   line-height: 1.5;
-}
-
-.credits {
-  margin-top: 2rem;
 }

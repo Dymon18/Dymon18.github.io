@@ -128,3 +128,8 @@ main a {
   margin-top: 0.75rem;
   line-height: 1.5;
 }
+
+.project-card .project-subtitle {
+  color: #ffd4a3;
+  font-weight: 700;
+}

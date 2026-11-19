@@ -80,6 +80,7 @@ main a {
   align-items: center;
   gap: 0.75rem;
   aspect-ratio: 8 / 3;
+  min-height: 8.5rem;
   padding: 0.75rem;
   border: 2px solid #b99062;
   border-radius: 0.9rem;
@@ -132,4 +133,23 @@ main a {
 .project-card .project-subtitle {
   color: #ffd4a3;
   font-weight: 700;
+}
+
+.project-card-tasklane {
+  background: #1d2d3a;
+  border-color: #83a9be;
+}
+
+.project-card-tasklane:hover,
+.project-card-tasklane:focus-visible {
+  background: #293d4b;
+  border-color: #bde0ef;
+}
+
+.project-card-tasklane .project-thumbnail {
+  width: min(38%, 10rem);
+}
+
+.project-card-tasklane .project-subtitle {
+  color: #bae0eb;
 }
